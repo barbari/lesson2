@@ -1,0 +1,64 @@
+body {
+  background-image: url("bunnies.gif");
+}
+
+.content-wrapper {
+  padding: 20px;
+  font-family: "Arial";
+  background-color: white;
+  border: 5px solid black;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #70DBDB;
+}
+
+img {
+  /* center an image with display: block; a width, and margin: 0 auto; */
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 20px;
+  line-height: 28px;
+  text-align: block;
+}
+
+a {
+  color: #FF99FF;
+  text-decoration: none;
+}
+
+/* css pseudoselector that adds style on hover */
+a:hover {
+  color: #70DBDB;
+}
+
+.attention {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* select all li within the ul */
+ul li {
+  color: #FF99FF;
+}
+
+/* select all direct descendent li within the ul with the class interests */
+/* i.e. only will apply to snacks, sleeping, and toys */
+ul.interests > li {
+  list-style-type: disc;
+}
+
+/* select all li within the ul with the class snacks */
+ul.snacks li {
+  list-style-type: upper-roman;
+}
+
+/* select all li within the ul with the class toys */
+ul.toys li {
+  list-style-type: square;
+}

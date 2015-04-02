@@ -1,0 +1,115 @@
+h1{
+color:#3e7365;
+font-size:30px; 
+text-align: center;
+padding: 50px 0 00;
+}
+
+h5{
+color:#68c1aa;
+font-size:16px; 
+font-weight: 800;
+text-align: center;
+}
+
+body {
+background-image: url("pattern.png");
+margin:0;
+font-family: Verdana, arial;
+}
+
+p {
+font-size: 13px;
+line-height: 17px;
+text-align: block;
+}
+
+img {
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+  border: 6px solid #e5e5e5;
+}
+
+#style-id-for-div{
+	border: 1px solid #555;
+	background-color: #ededed;
+	color: black;
+	width:300px;
+	height: 500px;
+	margin: 50px;
+	padding:20px;
+	float: left;
+}
+
+.style-class-for-div1{
+	background-color:white;
+	border: 1px solid #ededed ;
+	color: black;
+	width:300px;
+	height: 500px;
+	margin: 50px;
+	padding:20px;
+	float: left;
+	
+
+}
+.style-class-for-div2{
+	background-color:#a1d9cb;
+	border: 1px solid #ededed ;
+	color: black;
+	width:300px;
+	height: 500px;
+	margin: 50px;
+	padding:20px;
+	float: left;
+
+}
+.style-class-for-div2 h5{
+	color: black !important;
+}
+
+
+.style-class-for-div3{
+	background-color: black;
+	border: 1px solid #ededed ;
+	color: #999;
+	width:300px;
+	height: 500px;
+	margin: 50px;
+	padding:20px;
+	float: left;
+
+}
+
+
+
+
+#style-id-for-div img {
+	border: 6px solid white !important;
+
+}
+
+.button{ 
+	display: flex;
+    align-items: flex-start;
+	align-self: center;
+}
+
+.button a { 
+	padding:5px 40px;
+	margin:5px auto;
+	position: relative; 
+	background-color:#51b299;
+	color: white;
+	text-decoration: none;
+	}
+
+.button a:hover{
+	padding:5px 40px;
+	background-color:#73f4d3;
+	color: white;
+	text-decoration: none;
+}
+
+

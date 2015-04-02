@@ -1,0 +1,18 @@
+h1 {
+  color: red;
+}
+
+h2 {
+  text-align: center;
+}
+
+div {
+  background-color: indigo;
+  color: orange;
+  font-size: 24px;
+}
+
+span {
+  color: red;
+  text-align: center;
+}
